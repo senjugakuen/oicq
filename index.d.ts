@@ -932,7 +932,7 @@ export class Client extends EventEmitter {
     reloadFriendList(): Promise<Ret>;
     reloadGroupList(): Promise<Ret>;
 
-    /** @deprecated 直接关闭连接 */
+    /** 直接关闭连接 */
     terminate(): void;
     /** @deprecated 文字验证码 */
     captchaLogin(captcha: string): void;
